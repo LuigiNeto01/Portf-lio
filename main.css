@@ -273,7 +273,26 @@ html {
         color: #F2C641;
       }
 }
+@media screen and (max-width: 300px) {
+    .Principal{
+        color: #F2C641;
+        line-height: 40px;
+        font-size: 40px;
+      }
+      .SubTh2{
+        color: white;
+        line-height: 20px;
 
+        font-size: 16px;
+      }
+      .card img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+        max-height: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+        width: auto; /* Permite que a largura da imagem se ajuste automaticamente */
+        height: auto; /* Permite que a altura da imagem se ajuste automaticamente */
+        display: block; /* Remove qualquer espaço extra ao redor da imagem */
+    }
+  }
 
   @media screen and (max-width: 500px) {
     .Principal{
