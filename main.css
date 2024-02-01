@@ -243,6 +243,38 @@ html {
     display: block; /* Remove qualquer espaço extra ao redor da imagem */
 }
 
+@media screen and (min-width: 900px) {
+
+    .TextAlignThings {
+        text-align: justify;
+        width: 40%;
+      }
+    
+      .TextAlignThings h1 {
+        text-align: center;
+        font-size: 40px;
+        color: #F26A1B;
+      }
+    
+      .TextAlignThings p {
+        text-align: justify;
+        color: white;
+        font-size: 16px;
+        justify-content: start; /* Se desejar, pode remover essa linha, já que justify-content não se aplica a elementos inline como parágrafos */
+      }
+    
+      .TextAlignThings p strong{
+        color: #F2C641;
+        font-size: 16px;
+      }
+    
+      .TextAlignThings p b{
+        font-size: 16px;
+        color: #F2C641;
+      }
+}
+
+
   @media screen and (max-width: 500px) {
     .Principal{
         color: #F2C641;
@@ -264,7 +296,7 @@ html {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
